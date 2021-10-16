@@ -1,5 +1,5 @@
 install:
-	pip install virtualenv
+	pip3 install virtualenv
 
 init:
-	virtualenv --no-site-packages -p /usr/bin/python3 .P3
+	virtualenv -p /usr/bin/python3 .P3
